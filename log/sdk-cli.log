@@ -11257,3 +11257,681 @@
 2026-08-01T15:36:23.252Z CLI info [TEST REPORTING AND ANALYTICS:module]  [mwmv9k7u9kvh0dw8bzertjsxix0onrx7ocgfcf0u]  [af5e4395-f6d1-4725-b3a2-d2dbf924d567]  Visit https://automation.browserstack.com/builds/mwmv9k7u9kvh0dw8bzertjsxix0onrx7ocgfcf0u to view build report, insights, and many more debugging information all at one place!
 2026-08-01T15:36:23.252Z CLI info [ai:module]  [mwmv9k7u9kvh0dw8bzertjsxix0onrx7ocgfcf0u]  [af5e4395-f6d1-4725-b3a2-d2dbf924d567]  onStop: af5e4395-f6d1-4725-b3a2-d2dbf924d567
 2026-08-01T15:36:23.325Z CLI info [main]  [mwmv9k7u9kvh0dw8bzertjsxix0onrx7ocgfcf0u]  [af5e4395-f6d1-4725-b3a2-d2dbf924d567]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-08-01T16:16:19.241Z CLI info [main]    Server listening on port: 5400
+2026-08-01T16:16:19.477Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"os":"Windows","osVersion":"11","browserName":"Chrome","browserVersion":"148.0"},{"os":"OS X","osVersion":"Monterey","browserName":"Safari","browserVersion":"15.6"},{"deviceName":"iPhone 13","osVersion":"15","browserName":"Safari","deviceOrientation":"portrait"}],"browserstackLocal":true,"buildName":"browserstack-build-1","projectName":"BrowserStack Sample","selfHeal":true,"aiAuthoring":true,"buildIdentifier":"#${BUILD_NUMBER}","framework":"testng"}
+2026-08-01T16:16:19.495Z CLI info    Should start debug utility: undefined
+2026-08-01T16:16:19.496Z CLI info [testhub:module]   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Starting testhub from 38362:0
+2026-08-01T16:16:20.267Z CLI info   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-08-01T16:16:20.268Z CLI info   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-08-01T16:16:21.495Z CLI info   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-08-01T16:16:21.496Z CLI info   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-08-01T16:16:21.496Z CLI info   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-08-01T16:16:21.894Z CLI info [testhub:module]   [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  startBuild: response=ot8dadatwkqdziacuucmplxep1idb94nhawse4zd
+2026-08-01T16:16:21.899Z CLI info  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-08-01T16:16:25.987Z CLI error  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  error invoking callback for eventName onStart: ENOENT: no such file or directory, mkdir '/snapshot/browserstack-binary/cli/dist/extensions'
+2026-08-01T16:16:25.989Z CLI error  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Error: ENOENT: no such file or directory, mkdir '/snapshot/browserstack-binary/cli/dist/extensions'
+2026-08-01T16:16:29.676Z CLI info  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-08-01T16:16:34.105Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.089Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: 'SLF4J: Failed toString() invocation on an object of type [java.util.HashMap$KeySet]',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.120Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.117Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: 'Reported exception:',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.126Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.124Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: 'java.util.ConcurrentModificationException',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.136Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.134Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.151Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.148Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.165Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.160Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.AbstractCollection.toString(AbstractCollection.java:458)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.176Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'ef320157-42b6-44a1-afbd-9a035704d499',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'e61ecc02-0545-4b42-9c6c-7f5dc10706f6',
+    body: { lang: 'java', code: null },
+    scope: 'Cross-Platform.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Cross-Platform', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2026-08-01T16:16:34.163Z'
+  },
+  logs: []
+} to 38362:0
+2026-08-01T16:16:34.178Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '249ff7cf-f3d6-4273-931a-82fc35fe780e',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '481734a6-978f-46e9-95f6-5086249df803',
+    body: { lang: 'java', code: null },
+    scope: 'Cross-Platform.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Cross-Platform', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2026-08-01T16:16:34.161Z'
+  },
+  logs: []
+} to 38362:0
+2026-08-01T16:16:34.179Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.173Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.org.slf4j.helpers.MessageFormatter.a(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.196Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.190Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.org.slf4j.helpers.MessageFormatter.a(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.212Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.205Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.org.slf4j.helpers.MessageFormatter.arrayFormat(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.280Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.224Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.org.slf4j.helpers.MessageFormatter.arrayFormat(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.310Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.305Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.spi.LoggingEvent.getFormattedMessage(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.319Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.315Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.spi.LoggingEvent.prepareForDeferredProcessing(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.328Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.325Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.core.OutputStreamAppender.subAppend(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.334Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.331Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.core.OutputStreamAppender.append(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.358Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.352Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.380Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.378Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.387Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.385Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.Logger.callAppenders(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.392Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.390Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.Logger.b(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.398Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.395Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.Logger.a(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.408Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.405Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat browserstack.shaded.ch.qos.logback.classic.Logger.info(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.417Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.414Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.v2.framework.TestNgFramework.trackTestNgTest(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.423Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.421Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.v2.framework.TestNgFramework.resolveInstance(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.429Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.427Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.v2.framework.TestNgFramework.trackEvent(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.436Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.434Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.testNgListeners.TmpSuiteListener.a(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.444Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.441Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.testNgListeners.TmpSuiteListener.a(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.453Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.450Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat com.browserstack.testNgListeners.TmpSuiteListener.onStart(Unknown Source)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.459Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.457Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.TestRunner.fireEvent(TestRunner.java:921)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.465Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.463Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.TestRunner.beforeRun(TestRunner.java:623)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.472Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.470Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.TestRunner.run(TestRunner.java:589)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.479Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.477Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.488Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.485Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.495Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.494Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.502Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.499Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.510Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.508Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.515Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.513Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.522Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.519Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.528Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-08-01T16:16:34.526Z',
+      uuid: '7c0c34d9-2103-4563-b837-d27804f53d79',
+      kind: 'TEST_LOG',
+      message: '\tat java.base/java.lang.Thread.run(Thread.java:1570)',
+      level: 'ERROR',
+      test_run_uuid: '7c0c34d9-2103-4563-b837-d27804f53d79'
+    }
+  ]
+} to 38362:0
+2026-08-01T16:16:34.554Z CLI info [testhub:request-queue-handler]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '44f934c0-4ed3-496b-898b-9efa6f39b17d',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '7c0c34d9-2103-4563-b837-d27804f53d79',
+    body: { lang: 'java', code: null },
+    scope: 'Cross-Platform.com.browserstack.BStackDemoTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Cross-Platform', 'com.browserstack.BStackDemoTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    vc_filepath: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/BStackDemoTest.java',
+    started_at: '2026-08-01T16:16:34.550Z'
+  },
+  logs: []
+} to 38362:0
+2026-08-01T16:16:34.780Z CLI info [ai:module]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  initSession: 14e76ae8-7728-4db5-9ecf-1720e3702a5d
+2026-08-01T16:16:34.780Z CLI info [sdk:service]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Driver initialized as primary driver: platformIndex=2
+2026-08-01T16:16:34.785Z CLI info [ai:module]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  initSession: 14e76ae8-7728-4db5-9ecf-1720e3702a5d
+2026-08-01T16:16:34.786Z CLI info [sdk:service]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Driver initialized as primary driver: platformIndex=1
+2026-08-01T16:16:34.787Z CLI info [ai:module]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  initSession: 14e76ae8-7728-4db5-9ecf-1720e3702a5d
+2026-08-01T16:16:34.788Z CLI info [sdk:service]  [ot8dadatwkqdziacuucmplxep1idb94nhawse4zd]  [14e76ae8-7728-4db5-9ecf-1720e3702a5d]  Driver initialized as primary driver: platformIndex=0
