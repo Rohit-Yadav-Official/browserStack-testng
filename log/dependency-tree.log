@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.browserstack:testng-browserstack:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for com.browserstack:browserstack-java-sdk:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 44, column 22
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 75, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[WARNING] Plugin not found in any plugin repository: org.apache.maven.plugins:maven-help-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.191 s
+[INFO] Finished at: 2026-08-01T21:05:51+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Error resolving version for plugin 'org.apache.maven.plugins:maven-help-plugin' from the repositories [local (/Users/yadavrohit/.m2/repository), central (https://repo.maven.apache.org/maven2)]: Plugin not found in any plugin repository -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginVersionResolutionException
