@@ -101,3 +101,4 @@ This repository uses the BrowserStack SDK to run tests on BrowserStack. Follow t
 # testng-browserStack
 # testng-browserStack
 # testng-browserStack
+# browserStack-testng
