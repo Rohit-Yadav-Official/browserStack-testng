@@ -12,8 +12,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.191 s
-[INFO] Finished at: 2026-08-01T21:05:51+05:30
+[INFO] Total time:  0.354 s
+[INFO] Finished at: 2026-08-01T21:46:35+05:30
 [INFO] ------------------------------------------------------------------------
 [ERROR] Error resolving version for plugin 'org.apache.maven.plugins:maven-help-plugin' from the repositories [local (/Users/yadavrohit/.m2/repository), central (https://repo.maven.apache.org/maven2)]: Plugin not found in any plugin repository -> [Help 1]
 [ERROR] 
